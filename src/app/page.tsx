@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -196,7 +196,6 @@ export default function LandingPage() {
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764141743327-p7wfhsty.jpg"
-          logoAlt="DuckBar Logo"
           copyrightText="© 2025 DuckBar. Celebrating Ukrainian Heritage."
           columns={[
             {
